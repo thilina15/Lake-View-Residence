@@ -55,6 +55,7 @@ html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  overflow-x: hidden;
 }
 
 article,
@@ -10592,6 +10593,16 @@ header.masthead {
   background-position: center center;
   background-size: cover;
 }
+.divimg2 {
+  padding-top: 10.5rem;
+  padding-bottom: 6rem;
+  height: 500px;
+  background-image: url("/public/img/DIVIMG2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
 
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
@@ -10916,9 +10927,11 @@ header.masthead .masthead-heading {
 
 section#contact {
   background-color: #212529;
-  background-image: url("../assets/img/map-image.png");
+  background-image: url("/public/img/map-image.png");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 section#contact .section-heading {
   color: #fff;
@@ -10993,4 +11006,25 @@ section#contact form#contactForm :-ms-input-placeholder {
 .destiLink:hover {
   text-decoration: none;
   color: rgb(255, 196, 0);
+}
+
+#address {
+  color: white;
+  font-family: "Montserrat";
+  font-size: large;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+#AbtUsCnt {
+  color: rgb(61, 61, 61);
+  font-family: "Montserrat";
+  font-size: large;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+#adDiv {
+  display: flex;
+  justify-content: center;
 }
