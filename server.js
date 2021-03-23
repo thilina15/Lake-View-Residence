@@ -9,7 +9,9 @@ const app = express()
 app.use('/',indexRoute)
 app.set('view engine', 'ejs')
 app.set('views',__dirname+'/views')
-
+app.use('/public',express.static('public'))
+app.use('/js',express.static('public/js'))
+app.use('/assets',express.static('public'))
 
 
 app.listen(process.env.PORT||3000)
