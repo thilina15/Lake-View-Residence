@@ -607,6 +607,15 @@ pre code {
   }
 }
 
+.portfolio-item {
+  transition: 0.5s;
+}
+
+.portfolio-item:hover {
+  transition: 0.5s;
+  transform: scale(1.045);
+}
+
 @media (max-width: 576px) {
   .portfolio-item {
     display: flex;
@@ -10771,10 +10780,18 @@ header.masthead .masthead-heading {
   margin-left: 0;
   text-align: center;
   color: white;
-  border: 7px solid #e9ecef;
+  border: 7px solid #cecccc;
   border-radius: 100%;
   background-color: #fed136;
+  transition: 0.5s;
 }
+
+.timeline > li .timeline-image:hover {
+  border: 7px solid #ffd000;
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+
 .timeline > li .timeline-image h4 {
   font-size: 10px;
   line-height: 14px;
@@ -10965,4 +10982,15 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.destiLink {
+  text-decoration: none;
+  color: rgba(8, 8, 8, 0.808);
+  transition: 1s;
+}
+
+.destiLink:hover {
+  text-decoration: none;
+  color: rgb(255, 196, 0);
 }
