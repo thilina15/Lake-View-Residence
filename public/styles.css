@@ -606,6 +606,14 @@ pre code {
     max-width: 540px;
   }
 }
+
+@media (max-width: 576px) {
+  .portfolio-item {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
 @media (min-width: 768px) {
   .container-md,
   .container-sm,
@@ -5758,8 +5766,9 @@ a.close.disabled {
 .modal-dialog {
   position: relative;
   width: auto;
-  margin: 0.5rem;
+  margin: 1.5rem;
   pointer-events: none;
+  padding: 1rem;
 }
 .modal.fade .modal-dialog {
   transition: transform 0.3s ease-out;
@@ -5824,9 +5833,10 @@ a.close.disabled {
   flex-direction: column;
   width: 100%;
   pointer-events: auto;
-  background-color: #fff;
+  background-color: rgba(79, 80, 80, 0.829);
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
+  margin-left: 0.4vw;
   border-radius: 0.3rem;
   outline: 0;
 }
