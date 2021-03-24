@@ -11028,3 +11028,52 @@ section#contact form#contactForm :-ms-input-placeholder {
   display: flex;
   justify-content: center;
 }
+
+@media (max-width: 892px) {
+  #map {
+    height: 300px;
+  }
+
+  #location {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 1068px) {
+  #abtcont {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 763px) {
+  .divimg1 {
+    background-size: auto 700px;
+    height: 300px;
+  }
+
+  .divimg2 {
+    background-size: auto 700px;
+    height: 300px;
+  }
+  .contact {
+    background-size: auto 700px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 560px) {
+  .divimg1 {
+    background-size: auto 655px;
+    height: 200px;
+  }
+
+  .divimg2 {
+    background-size: auto 655px;
+    height: 200px;
+  }
+  .contact {
+    background-size: auto 655px;
+  }
+}
