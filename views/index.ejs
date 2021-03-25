@@ -1,13 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
         <title>Lake View Cottage</title>
-        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
+        <link rel="icon" type="image/icon" href="/public/img/tabLogo.ico" />
+        <!-- Font Awesome icons -->
         <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
@@ -28,6 +24,7 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ml-auto">
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#AboutUs">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#location">location</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Facilities">Facilities</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#gallery">gallery</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Destinations">Destinations</a></li>                  
@@ -50,12 +47,13 @@
 <!-- About Us -->
         <section class="page-section py-4 my-4" id="AboutUs">
             <div class="text-center">
+                <br><br>
                 <h2 class="section-heading text-uppercase">About Us</h2>
                 <h3 class="section-subheading text-muted"></h3>
 
             </div>
                 <form id="contactForm" name="sentMessage" novalidate="novalidate">
-                    <div class="row align-items-stretch my-1 ">
+                    <div class="row align-items-stretch my-1" id="abtcont">
                         <div class="col-md-6 px-4 mx-4 py-4">                       
                             <p id="AbtUsCnt">
                                 Located in Nuwara Eliya district - Rikillagaskada. Only 38 km from Kandy city & 45 km from Nuwara Eliya town. Lake View Residency will give you an unforgettable experience and its serenity, natural beauty & countryside environment will amaze you.
@@ -63,18 +61,18 @@
                         </div>
                         
                         <div>
-                            <img class="img-fluid d-block mx-auto px-4 py-4" src="/public/img/footerLogo2.png" alt="" />
+                            <img class="img-fluid d-block mx-auto px-4 py-4" src="/public/img/abtuslogo.png" alt="" />
                         </div>
 
-                    </div>
-                    
-                    
-                  
+                    </div>   
                 </form>
             </div>
         </section>
 
-
+<!-- map -->
+<section id="location">
+    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1256.4398992599317!2d80.78885482922944!3d7.1546263303396325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zN8KwMDknMTYuNyJOIDgwwrA0NycyMS45IkU!5e1!3m2!1sen!2slk!4v1616566342131!5m2!1sen!2slk" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
 
    <!-- Facilities-->
    <section class="page-section" id="Facilities">
@@ -89,24 +87,24 @@
                     <i class="fas fa-circle fa-stack-2x text-primary"></i>
                     <i class="fas fa-user fa-stack-1x fa-inverse"></i>               
                 </span>
-                <h4 class="my-3">Max. 8 Guests</h4>
-                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                <h4 class="my-3">Accomodation</h4>
+                <p class="text-muted">Comfortable lodge with Kitchen, Parking Area, Lake View Hut and Beautiful Garden Area.Free WiFi and Satellite TV facilities also included.</p>
             </div>
             <div class="col-md-4">
                 <span class="fa-stack fa-4x">
                     <i class="fas fa-circle fa-stack-2x text-primary"></i>
                     <i class="fa fa-bed fa-stack-1x fa-inverse"></i>
                 </span>
-                <h4 class="my-3">3 Bedrooms</h4>
-                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                <h4 class="my-3">Bedrooms</h4>
+                <p class="text-muted">Three Bed rooms including 2 family rooms and one double room. King size beds for Family rooms and triple bed for rest.</p>
             </div>
             <div class="col-md-4">
                 <span class="fa-stack fa-4x">
                     <i class="fas fa-circle fa-stack-2x text-primary"></i>
                     <i class="fas fa-bath fa-stack-1x fa-inverse"></i>
                 </span>
-                <h4 class="my-3">2 Bathrooms</h4>
-                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                <h4 class="my-3">Bathrooms</h4>
+                <p class="text-muted">One family room include a attached bathroom & large common bathrom for rest. Hot water facility available for both.</p>
             </div>
         </div>
     </div>
@@ -377,6 +375,7 @@
             </div>
         </section>
 
+        <br><br>
         
         <!-- Contact-->
         <section class="page-section py-4" id="contact">
@@ -391,7 +390,7 @@
                 
                     <div id="adDiv">
                         <p id="address">
-                                Dodamkubura,<br>Rikillagaskada,<br>Sri Lanka.<br><br>Tel:<br>+94 77 9 635 221 / +94 70 3 648 257
+                            No:28,<br>Mahakumbura,<br>Dodamkubura,<br>Rikillagaskada,<br>Sri Lanka.<br><br>Tel:<br>+94 77 9 635 221 / +94 70 3 648 257
                             </p>
                         </div>
                        
@@ -402,9 +401,9 @@
                         <div class="col-md-8 offset-md-2">
                            
                             <div id="footLogoFB">
-                                <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/cottagelakeview/"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/lake_view_cottage/"><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-dark btn-social mx-2" href="mailto:Contact.lakeviewresidence@gmail.com"><i class="fa fa-envelope"></i></a>
                             </div>
                            
                             </div>
